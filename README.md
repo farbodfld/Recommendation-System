@@ -9,7 +9,6 @@ A machine learning-based movie recommendation project that suggests relevant mov
 - [Project Overview](#project-overview)
 - [Key Features](#key-features)
 - [Recommendation Approaches](#recommendation-approaches)
-- [Project Structure](#project-structure)
 - [Technologies Used](#technologies-used)
 - [Dataset](#dataset)
 - [Installation](#installation)
@@ -89,28 +88,6 @@ This approach helps reduce limitations such as:
 - Sparse rating data
 - Overly narrow recommendations
 - Lack of personalization in metadata-only systems
-
----
-
-## Project Structure
-
-The repository may contain files such as notebooks, scripts, datasets, models, or output files depending on the implementation version.
-
-A typical structure for this type of project is:
-
-```text
-Recommendation-System/
-│
-├── data/                  # Dataset files, if included locally
-├── notebooks/             # Jupyter notebooks for analysis and modelling
-├── src/                   # Python source code, if separated into modules
-├── models/                # Saved models or similarity matrices
-├── outputs/               # Generated results, plots, or recommendation outputs
-├── requirements.txt       # Python dependencies
-└── README.md              # Project documentation
-```
-
-If your local version has a different structure, the README can still be used as the main project documentation and adjusted to match the exact filenames.
 
 ---
 
@@ -340,7 +317,3 @@ Possible improvements for this project include:
 Developed by [farbodfld](https://github.com/farbodfld)
 
 ---
-
-## License
-
-This project is intended for educational and portfolio purposes. If a specific license is required, add a `LICENSE` file to the repository.
